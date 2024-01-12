@@ -1,5 +1,5 @@
 import 'package:airdroid/constants/feature_data.dart';
-import 'package:airdroid/presentation/widgets/button.dart';
+
 import 'package:airdroid/presentation/widgets/child_help.dart';
 import 'package:airdroid/presentation/widgets/faq.dart';
 import 'package:airdroid/presentation/widgets/feature_component.dart';
@@ -8,7 +8,6 @@ import 'package:airdroid/presentation/widgets/footer.dart';
 import 'package:airdroid/presentation/widgets/top_section.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/header.dart';
 
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});

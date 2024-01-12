@@ -1,6 +1,5 @@
 import 'package:airdroid/presentation/widgets/feature_pending_dialog.dart';
 import 'package:flutter/material.dart';
-import 'package:syncfusion_flutter_pdfviewer/pdfviewer.dart';
 
 class Header extends StatelessWidget {
   final double width;
