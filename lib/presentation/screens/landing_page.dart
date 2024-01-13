@@ -1,6 +1,7 @@
 import 'package:airdroid/constants/feature_data.dart';
-import 'package:airdroid/presentation/widgets/button.dart';
+import 'package:airdroid/constants/misc.dart';
 import 'package:airdroid/presentation/widgets/child_help.dart';
+import 'package:airdroid/presentation/widgets/custom_drawer_header.dart';
 import 'package:airdroid/presentation/widgets/faq.dart';
 import 'package:airdroid/presentation/widgets/feature_component.dart';
 import 'package:airdroid/presentation/widgets/feature_pending_dialog.dart';
@@ -32,7 +33,7 @@ class LandingPage extends StatelessWidget {
                       "assets/images/logo.png",
                       height: 0.09571875 * size.height,
                     ),
-                    const Text("TeenCare")
+                    const Text(title)
                   ],
                 ),
                 toolbarHeight: 0.08571875 * size.height,
@@ -44,54 +45,59 @@ class LandingPage extends StatelessWidget {
                 elevation: 5,
                 child: ListView(
                   children: [
-                    ListTile(
-                      title: const Text('Home'),
-                      selectedColor: const Color(0xFF01B04E),
-                      selected: _selectedIndex == 0,
-                      onTap: () {
-                        Navigator.pop(context);
-                      },
+                    CustomDrawerHeader(width: size.width, height: size.height),
+                    Column(
+                      children: [
+                        ListTile(
+                          title: const Text(listTile1),
+                          selectedColor: const Color(0xFF01B04E),
+                          selected: _selectedIndex == 0,
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                        ),
+                        ListTile(
+                          title: const Text(listTile2),
+                          selected: _selectedIndex == 1,
+                          onTap: () {
+                            Navigator.pop(context);
+                            showFeaturePendingDialog(context: context);
+                          },
+                        ),
+                        ListTile(
+                          title: const Text(listTile3),
+                          selected: _selectedIndex == 2,
+                          onTap: () {
+                            Navigator.pop(context);
+                            showFeaturePendingDialog(context: context);
+                          },
+                        ),
+                        ListTile(
+                          title: const Text(listTile4),
+                          selected: _selectedIndex == 3,
+                          onTap: () {
+                            Navigator.pop(context);
+                            showFeaturePendingDialog(context: context);
+                          },
+                        ),
+                        ListTile(
+                          title: const Text(listTile5),
+                          selected: _selectedIndex == 4,
+                          onTap: () {
+                            Navigator.pop(context);
+                            showFeaturePendingDialog(context: context);
+                          },
+                        ),
+                        ListTile(
+                          title: const Text(listTile6),
+                          selected: _selectedIndex == 5,
+                          onTap: () {
+                            Navigator.pop(context);
+                            showFeaturePendingDialog(context: context);
+                          },
+                        )
+                      ],
                     ),
-                    ListTile(
-                      title: const Text('Download'),
-                      selected: _selectedIndex == 1,
-                      onTap: () {
-                        Navigator.pop(context);
-                        showFeaturePendingDialog(context: context);
-                      },
-                    ),
-                    ListTile(
-                      title: const Text('Pricing'),
-                      selected: _selectedIndex == 2,
-                      onTap: () {
-                        Navigator.pop(context);
-                        showFeaturePendingDialog(context: context);
-                      },
-                    ),
-                    ListTile(
-                      title: const Text('How To'),
-                      selected: _selectedIndex == 3,
-                      onTap: () {
-                        Navigator.pop(context);
-                        showFeaturePendingDialog(context: context);
-                      },
-                    ),
-                    ListTile(
-                      title: const Text('About Us'),
-                      selected: _selectedIndex == 4,
-                      onTap: () {
-                        Navigator.pop(context);
-                        showFeaturePendingDialog(context: context);
-                      },
-                    ),
-                    ListTile(
-                      title: const Text('Privacy'),
-                      selected: _selectedIndex == 5,
-                      onTap: () {
-                        Navigator.pop(context);
-                        showFeaturePendingDialog(context: context);
-                      },
-                    )
                   ],
                 ),
               )
@@ -111,7 +117,7 @@ class LandingPage extends StatelessWidget {
                   0,
                 ),
                 child: Text(
-                  "The All-in-One Parenting Protection You Must Have",
+                  tagLine,
                   style: TextStyle(
                     fontSize: (size.width < 768) ? 26 : 32,
                     fontWeight: FontWeight.bold,

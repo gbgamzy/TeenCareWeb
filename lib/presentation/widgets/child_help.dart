@@ -1,3 +1,4 @@
+import 'package:airdroid/constants/misc.dart';
 import 'package:flutter/material.dart';
 
 import 'custom_card.dart';
@@ -25,28 +26,28 @@ class ChildHelp extends StatelessWidget {
     final card1 = CustomCard(
       width: width,
       height: height,
-      title: "Challenge of Personal Security",
+      title: card1Data["title"].toString(),
       description:
-          "With 460,000 children going missing each year in the United States alone, and the rise of secretive online communication, keeping your child safe has never been more challenging. No matter how hard you try, you simply don’t have the time and energy to follow their every move. We're here to help.",
+          card1Data["description"].toString(),
     );
     final card2 = CustomCard(
       width: width,
       height: height,
-      title: "Massive Online Information & Cyberbullying",
+      title: card2Data["title"].toString(),
       description:
-          "Cyberbullying is an anonymous, all-consuming, and potentially deadly occurrence on the dark side of social media which can result in a sharp deterioration in anxiety, depression, and suicide in the most extreme cases. Your child may be surrounded by potentially significant risks anytime. We're here to help.",
+          card2Data["description"].toString(),
     );
     final card3 = CustomCard(
       width: width,
       height: height,
-      title: "Uncontrolled Addiction & Distractions",
-      description: "Over 90% of children aged 7-12 are online regularly on their own devices. While this allows them to learn and have fun, it also connects them with millions of highly addictive games, apps, and other forms of content. The destructive effects of an uncontrolled digital addiction affect all aspects of their lives. We're here to help."
+      title: card3Data["title"].toString(),
+      description: card3Data["description"].toString()
     );
     final card4 = CustomCard(
       width: width,
       height: height,
-      title: "Worry about Physical & Mental Health",
-      description: "The COVID-19 pandemic and the global digital revolution have created a storm that's pushing children to sit in front of screens for hours and hours every day. Your child can be experiencing endocrine disorders, suppressed appetite, immune response degradation, and other undiagnosed issues. We're here to help."
+      title: card4Data["title"].toString(),
+      description: card4Data["description"].toString(),
     );
 
     return Padding(
@@ -63,7 +64,6 @@ class ChildHelp extends StatelessWidget {
                   card2,
                   card3,
                   card4,
-
                 ],
               )
             : Stack(

@@ -1,4 +1,4 @@
-import 'package:airdroid/presentation/widgets/solution_card.dart';
+import 'package:airdroid/presentation/widgets/unused_widgets/solution_card.dart';
 import 'package:flutter/material.dart';
 
 class OtherSolutions extends StatelessWidget {

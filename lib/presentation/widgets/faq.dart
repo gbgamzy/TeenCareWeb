@@ -1,4 +1,5 @@
 import 'package:airdroid/constants/feature_data.dart';
+import 'package:airdroid/constants/misc.dart';
 import 'package:airdroid/presentation/widgets/expandable_card.dart';
 import 'package:flutter/material.dart';
 
@@ -19,7 +20,7 @@ class Faq extends StatelessWidget {
         Padding(
           padding: EdgeInsets.fromLTRB(0, 0.05276041667 * height, 0, 0),
           child: const Text(
-            "FAQs & Hot Topics",
+            faqSectionTitle,
             style: TextStyle(
               fontSize: 32,
               fontWeight: FontWeight.bold,
@@ -41,7 +42,7 @@ class Faq extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.fromLTRB(0, 0, 0, 0.02994791667 * height),
                   child: const Text(
-                    'FAQs',
+                    faqTitle,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
@@ -51,7 +52,7 @@ class Faq extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.fromLTRB(0, 0, 0, 0.02994791667 * height),
                   child: const Text(
-                    'Hot Topics',
+                    hotTopicsTitle,
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,

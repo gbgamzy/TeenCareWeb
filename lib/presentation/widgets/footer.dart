@@ -1,3 +1,4 @@
+import 'package:airdroid/constants/misc.dart';
 import 'package:flutter/material.dart';
 
 import 'feature_pending_dialog.dart';
@@ -22,7 +23,7 @@ class Footer extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              "About TeenCare Parental Control",
+              aboutTitle,
               style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
@@ -31,7 +32,7 @@ class Footer extends StatelessWidget {
             SizedBox(
               width: (width<768) ? width : 0.5815789474 * width,
               child: const Text(
-                "TeenCare Parental Control helps parents better monitor and manage children's devices. You can quickly locate your kids and family, check location history, review children's device usage, and schedule screen time & application usage.",
+                aboutDescription,
                 style: TextStyle(fontSize: 15, color: Colors.white),
               ),
             ),
@@ -46,7 +47,7 @@ class Footer extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         const Text(
-                          "Company",
+                          aboutCompanyTitle,
                           style: TextStyle(
                             fontSize: 16,
                             fontWeight: FontWeight.bold,
@@ -58,7 +59,7 @@ class Footer extends StatelessWidget {
                             showFeaturePendingDialog(context: context);
                           },
                           child: const Text(
-                            "About GAPS",
+                            gapsTitle,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
@@ -70,7 +71,7 @@ class Footer extends StatelessWidget {
                             showFeaturePendingDialog(context: context);
                           },
                           child: const Text(
-                            "Contact Us",
+                            contactsTitle,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
@@ -82,7 +83,7 @@ class Footer extends StatelessWidget {
                             showFeaturePendingDialog(context: context);
                           },
                           child: const Text(
-                            "Privacy Policy",
+                            privacyTitle,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
@@ -94,7 +95,7 @@ class Footer extends StatelessWidget {
                             showFeaturePendingDialog(context: context);
                           },
                           child: const Text(
-                            "Payment Terms",
+                            paymentTitle,
                             style: TextStyle(
                               fontSize: 16,
                               color: Colors.white,
@@ -108,7 +109,7 @@ class Footer extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       const Text(
-                        "Resources",
+                        resourceTitle,
                         style: TextStyle(
                           fontSize: 16,
                           fontWeight: FontWeight.bold,
@@ -120,7 +121,7 @@ class Footer extends StatelessWidget {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
-                          "Resource Library",
+                          resourceLibraryTitle,
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
@@ -132,7 +133,7 @@ class Footer extends StatelessWidget {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
-                          "How-to",
+                          howToTitle,
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
@@ -144,7 +145,7 @@ class Footer extends StatelessWidget {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
-                          "Blog",
+                          blogTitle,
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
@@ -156,7 +157,7 @@ class Footer extends StatelessWidget {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
-                          "Pricing",
+                          pricingTitle,
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
@@ -168,7 +169,7 @@ class Footer extends StatelessWidget {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
-                          "Download",
+                          downloadTitle,
                           style: TextStyle(
                             fontSize: 16,
                             color: Colors.white,
@@ -190,7 +191,7 @@ class Footer extends StatelessWidget {
                     size: 15,
                   ),
                   Text(
-                    "2023-2024 GAPS, India",
+                    copyright,
                     style: TextStyle(fontSize: 15, color: Colors.white),
                   )
                 ],
