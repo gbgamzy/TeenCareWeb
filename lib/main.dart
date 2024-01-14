@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:airdroid/presentation/screens/landing_page.dart';
-import 'package:airdroid/presentation/screens/pdf_viewer.dart';
+import 'package:teencare/presentation/screens/landing_page.dart';
+import 'package:teencare/presentation/screens/pdf_viewer.dart';
 import 'package:flutter/material.dart';
 
 void main() {

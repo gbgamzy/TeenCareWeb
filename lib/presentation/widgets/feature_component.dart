@@ -1,5 +1,5 @@
-import 'package:airdroid/presentation/widgets/bubble.dart';
-import 'package:airdroid/presentation/widgets/expandable_card.dart';
+import 'package:teencare/presentation/widgets/bubble.dart';
+import 'package:teencare/presentation/widgets/expandable_card.dart';
 import 'package:flutter/material.dart';
 
 import '../../data/model/feature_data.dart';

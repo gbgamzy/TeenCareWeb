@@ -1,4 +1,4 @@
-import 'package:airdroid/presentation/widgets/button.dart';
+import 'package:teencare/presentation/widgets/button.dart';
 import 'package:flutter/material.dart';
 
 class TryNow extends StatelessWidget {
@@ -36,7 +36,7 @@ class TryNow extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   const Text(
-                    "Make Parenting Easier with AirDroid Parental Control",
+                    "Make Parenting Easier with teencare Parental Control",
                     style: TextStyle(
                       fontSize: 40,
                       fontWeight: FontWeight.bold,

@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:airdroid/data/model/tile_data_model.dart';
+import 'package:teencare/data/model/tile_data_model.dart';
 
 class FeatureData {
   final String bubbleTitle;

@@ -25,7 +25,7 @@ class ProtectionCard extends StatelessWidget {
                 ),
               ),
               const Text(
-                "Download AirDroid Parental Control on the parent's phone.",
+                "Download teencare Parental Control on the parent's phone.",
                 style: TextStyle(fontSize: 16),
                 textAlign: TextAlign.center,
               ),

@@ -1,4 +1,4 @@
-import 'package:airdroid/presentation/widgets/feature_pending_dialog.dart';
+import 'package:teencare/presentation/widgets/feature_pending_dialog.dart';
 import 'package:flutter/material.dart';
 
 class Header extends StatelessWidget {

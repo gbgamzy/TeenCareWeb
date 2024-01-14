@@ -1,4 +1,4 @@
-import 'package:airdroid/constants/misc.dart';
+import 'package:teencare/constants/misc.dart';
 import 'package:flutter/material.dart';
 
 Future<void> showFeaturePendingDialog(

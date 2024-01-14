@@ -30,7 +30,7 @@ class SolutionCard extends StatelessWidget {
                   child: Image.asset("assets/images/solution1.png"),
                 ),
                 const Text(
-                  "AirDroid Personal",
+                  "teencare Personal",
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 20,

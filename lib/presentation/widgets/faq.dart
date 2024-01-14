@@ -1,6 +1,6 @@
-import 'package:airdroid/constants/feature_data.dart';
-import 'package:airdroid/constants/misc.dart';
-import 'package:airdroid/presentation/widgets/expandable_card.dart';
+import 'package:teencare/constants/feature_data.dart';
+import 'package:teencare/constants/misc.dart';
+import 'package:teencare/presentation/widgets/expandable_card.dart';
 import 'package:flutter/material.dart';
 
 class Faq extends StatelessWidget {

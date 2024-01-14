@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:airdroid/data/model/feature_data.dart';
-import 'package:airdroid/data/model/tile_data_model.dart';
+import 'package:teencare/data/model/feature_data.dart';
+import 'package:teencare/data/model/tile_data_model.dart';
 
 const featureData = <FeatureData>[
   FeatureData(
@@ -32,7 +32,7 @@ const featureData = <FeatureData>[
       TileDataModel(
         title: "Social Content Detection",
         subTitle:
-            "Set up keywords on AirDroid Parental Control to detect harmful content on social media like Instagram, Facebook, YouTube, WhatsApp, etc. It enables an alert function when your kids are potentially facing dangers and cyberbullying.",
+            "Set up keywords on teencare Parental Control to detect harmful content on social media like Instagram, Facebook, YouTube, WhatsApp, etc. It enables an alert function when your kids are potentially facing dangers and cyberbullying.",
       ),
     ],
   ),
@@ -116,6 +116,6 @@ const faq = <TileDataModel>[
   TileDataModel(
     title: "Social Content Detection",
     subTitle:
-    "Set up keywords on AirDroid Parental Control to detect harmful content on social media like Instagram, Facebook, YouTube, WhatsApp, etc. It enables an alert function when your kids are potentially facing dangers and cyberbullying.",
+    "Set up keywords on teencare Parental Control to detect harmful content on social media like Instagram, Facebook, YouTube, WhatsApp, etc. It enables an alert function when your kids are potentially facing dangers and cyberbullying.",
   ),
 ];

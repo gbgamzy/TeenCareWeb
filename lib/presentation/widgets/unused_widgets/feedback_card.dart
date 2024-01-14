@@ -1,4 +1,4 @@
-import 'package:airdroid/data/model/feedback_data_model.dart';
+import 'package:teencare/data/model/feedback_data_model.dart';
 import 'package:flutter/material.dart';
 
 class FeedbackCard extends StatelessWidget {

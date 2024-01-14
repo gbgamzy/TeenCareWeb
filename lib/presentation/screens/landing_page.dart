@@ -1,12 +1,12 @@
-import 'package:airdroid/constants/feature_data.dart';
-import 'package:airdroid/constants/misc.dart';
-import 'package:airdroid/presentation/widgets/child_help.dart';
-import 'package:airdroid/presentation/widgets/custom_drawer_header.dart';
-import 'package:airdroid/presentation/widgets/faq.dart';
-import 'package:airdroid/presentation/widgets/feature_component.dart';
-import 'package:airdroid/presentation/widgets/feature_pending_dialog.dart';
-import 'package:airdroid/presentation/widgets/footer.dart';
-import 'package:airdroid/presentation/widgets/top_section.dart';
+import 'package:teencare/constants/feature_data.dart';
+import 'package:teencare/constants/misc.dart';
+import 'package:teencare/presentation/widgets/child_help.dart';
+import 'package:teencare/presentation/widgets/custom_drawer_header.dart';
+import 'package:teencare/presentation/widgets/faq.dart';
+import 'package:teencare/presentation/widgets/feature_component.dart';
+import 'package:teencare/presentation/widgets/feature_pending_dialog.dart';
+import 'package:teencare/presentation/widgets/footer.dart';
+import 'package:teencare/presentation/widgets/top_section.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/header.dart';
