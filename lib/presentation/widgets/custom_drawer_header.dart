@@ -21,7 +21,7 @@ class CustomDrawerHeader extends StatelessWidget {
         child: Row(
           children: [
             Image.asset(
-              "assets/images/logo.png",
+              "assets/images/favicon.png",
               height: 0.09571875 * height,
             ),
             const Text(title, style: TextStyle(fontSize: 22),)

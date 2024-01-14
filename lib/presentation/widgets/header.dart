@@ -25,7 +25,7 @@ class Header extends StatelessWidget {
             Padding(
               padding: EdgeInsets.fromLTRB(0, 0, 0.0205208 * width, 0),
               child: Image.asset(
-                "assets/images/logo.png",
+                "assets/images/favicon.png",
                 fit: BoxFit.fitHeight,
               ),
             ),

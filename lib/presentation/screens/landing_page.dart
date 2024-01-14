@@ -30,7 +30,7 @@ class LandingPage extends StatelessWidget {
                 title: Row(
                   children: [
                     Image.asset(
-                      "assets/images/logo.png",
+                      "assets/images/favicon.png",
                       height: 0.09571875 * size.height,
                     ),
                     const Text(title)
