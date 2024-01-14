@@ -9,8 +9,6 @@ import 'package:teencare/presentation/widgets/footer.dart';
 import 'package:teencare/presentation/widgets/top_section.dart';
 import 'package:flutter/material.dart';
 
-import '../widgets/header.dart';
-
 class LandingPage extends StatelessWidget {
   const LandingPage({super.key});
   static const TextStyle optionStyle = TextStyle(
