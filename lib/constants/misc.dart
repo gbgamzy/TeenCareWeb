@@ -33,7 +33,7 @@ const faqTitle = 'FAQs';
 const hotTopicsTitle = 'Hot Topics';
 
 const thisFeature = "This Feature";
-const pendingTitle = 'This Feature is under Making';
+const pendingTitle = 'This Feature is under development';
 const pendingDescription = 'Come check for this at a later time!';
 const pendingButtonText = 'Okay';
 const aboutTitle = "About TeenCare Parental Control";
