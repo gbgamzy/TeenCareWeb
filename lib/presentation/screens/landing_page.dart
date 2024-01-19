@@ -9,16 +9,46 @@ import 'package:teencare/presentation/widgets/footer.dart';
 import 'package:teencare/presentation/widgets/top_section.dart';
 import 'package:flutter/material.dart';
 
-class LandingPage extends StatelessWidget {
-  const LandingPage({super.key});
-  static const TextStyle optionStyle = TextStyle(
-    fontSize: 30,
-    fontWeight: FontWeight.bold,
-  );
+class LandingPage extends StatefulWidget {
+  final String dialogToShow;
+  const LandingPage({Key? key, this.dialogToShow = ""}) : super(key: key);
+
+
+  @override
+  _LandingPageState createState() => _LandingPageState();
+}
+
+class _LandingPageState extends State<LandingPage> {
+  @override
+  void initState() {
+
+    print(widget.dialogToShow);
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      switch (widget.dialogToShow) {
+        case "privacyPolicy":
+          showPrivacyDialog(context);
+          break;
+        case "termsAndConditions":
+          showTermsDialog(context);
+          break;
+        case "contacts":
+          showContactsDialog(context: context);
+          break;
+        case "paymentPolicy":
+          showPaymentPolicyDialog(context);
+          break;
+
+        default:
+      }
+    });
+    
+    super.initState();
+  }
+
+  int _selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
-    int _selectedIndex = 0;
     var size = MediaQuery.of(context).size;
     return DefaultTabController(
       length: 2,
@@ -39,7 +69,7 @@ class LandingPage extends StatelessWidget {
             : null,
         drawer: (size.width < 768)
             ? Drawer(
-          backgroundColor: const Color(0xFFCCEFDB),
+                backgroundColor: const Color(0xFFCCEFDB),
                 elevation: 5,
                 child: ListView(
                   children: [
@@ -132,26 +162,10 @@ class LandingPage extends StatelessWidget {
                 width: size.width,
                 height: size.height,
               ),
-              // ProtectionFeatures(
-              //   width: size.width,
-              //   height: size.height,
-              // ),
-              // ParentsFeedback(
-              //   width: size.width,
-              //   height: size.height,
-              // ),
-              // TryNow(
-              //   width: size.width,
-              //   height: size.height,
-              // ),
               Faq(
                 width: size.width,
                 height: size.height,
               ),
-              // OtherSolutions(
-              //     width: size.width,
-              //     height: size.height,
-              // )
               Footer(
                 width: size.width,
                 height: size.height,

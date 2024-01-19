@@ -1,5 +1,4 @@
 import 'dart:ui';
-
 import 'package:teencare/data/model/feature_data.dart';
 import 'package:teencare/data/model/tile_data_model.dart';
 

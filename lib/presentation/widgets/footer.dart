@@ -68,7 +68,7 @@ class Footer extends StatelessWidget {
                         ),
                         InkWell(
                           onTap: (){
-                            showFeaturePendingDialog(context: context);
+                            showContactsDialog(context: context);
                           },
                           child: const Text(
                             contactsTitle,
@@ -80,7 +80,7 @@ class Footer extends StatelessWidget {
                         ),
                         InkWell(
                           onTap: (){
-                            showFeaturePendingDialog(context: context);
+                            showPrivacyDialog(context);
                           },
                           child: const Text(
                             privacyTitle,
@@ -92,7 +92,19 @@ class Footer extends StatelessWidget {
                         ),
                         InkWell(
                           onTap: (){
-                            showFeaturePendingDialog(context: context);
+                            showTermsDialog(context);
+                          },
+                          child: const Text(
+                            termsTitle,
+                            style: TextStyle(
+                              fontSize: 16,
+                              color: Colors.white,
+                            ),
+                          ),
+                        ),
+                        InkWell(
+                          onTap: (){
+                            showPaymentPolicyDialog(context);
                           },
                           child: const Text(
                             paymentTitle,

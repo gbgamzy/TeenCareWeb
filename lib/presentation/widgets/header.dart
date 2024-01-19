@@ -95,7 +95,7 @@ class Header extends StatelessWidget {
               child: InkWell(
                 onTap: (){
                   // Navigator.pushNamed(context, "/pdf");
-                  showFeaturePendingDialog(context: context);
+                  showPrivacyDialog(context);
                 },
                 child: Text(
                   "Privacy",

@@ -23,8 +23,16 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/':(context)=> const LandingPage(),
-        '/pdf':(context)=>const PdfViewer()
+        '/home/privacyPolicy': (context) =>
+            const LandingPage(dialogToShow: "privacyPolicy"),
+        '/termsAndConditions': (context) =>
+            const LandingPage(dialogToShow: "termsAndConditions"),
+        '/contacts': (context) =>
+            const LandingPage(dialogToShow: "contacts"),
+        '/paymentPolicy': (context) =>
+            const LandingPage(dialogToShow: "paymentPolicy"),
+        '/': (context) => const LandingPage(),
+        '/pdf': (context) => const PdfViewer(),
       },
     );
   }
@@ -33,9 +41,9 @@ class MyApp extends StatelessWidget {
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   @override
   Set<PointerDeviceKind> get dragDevices => {
-    PointerDeviceKind.touch,
-    PointerDeviceKind.mouse,
-    PointerDeviceKind.stylus,
-    PointerDeviceKind.unknown,
-  };
+        PointerDeviceKind.touch,
+        PointerDeviceKind.mouse,
+        PointerDeviceKind.stylus,
+        PointerDeviceKind.unknown,
+      };
 }
