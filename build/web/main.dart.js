@@ -142079,7 +142079,7 @@ A.te.prototype={}
 A.hs.prototype={}
 A.Tk.prototype={
 T(a){var s=A.IF(null,A.b0y(B.v,B.eU),!0)
-return new A.EU(A.a3(["/home/privacyPolicy",new A.akv(),"/termsAndConditions",new A.akw(),"/contacts",new A.akx(),"/paymentPolicy",new A.aky(),"/",new A.akz(),"/pdf",new A.akA()],t.N,t.Ab),"/","Teen Care",s,!1,new A.akB(),null)}}
+return new A.EU(A.a3(["/privacyPolicy",new A.akv(),"/termsAndConditions",new A.akw(),"/contacts",new A.akx(),"/paymentPolicy",new A.aky(),"/",new A.akz(),"/pdf",new A.akA()],t.N,t.Ab),"/","Teen Care",s,!1,new A.akB(),null)}}
 A.akv.prototype={
 $1(a){return B.M4},
 $S:72}

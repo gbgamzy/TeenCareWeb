@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/home/privacyPolicy': (context) =>
+        '/privacyPolicy': (context) =>
             const LandingPage(dialogToShow: "privacyPolicy"),
         '/termsAndConditions': (context) =>
             const LandingPage(dialogToShow: "termsAndConditions"),
