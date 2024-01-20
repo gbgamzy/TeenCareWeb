@@ -33,7 +33,7 @@ const faqTitle = 'FAQs';
 const hotTopicsTitle = 'Hot Topics';
 
 const thisFeature = "This Feature";
-const pendingTitle = 'This Feature is under development';
+const pendingTitle = 'This Feature is under Making';
 const pendingDescription = 'Come check for this at a later time!';
 const pendingButtonText = 'Okay';
 const aboutTitle = "About TeenCare Parental Control";
@@ -170,6 +170,61 @@ const paymentHeading9Description =
 
 const paymentHeading10 =
     "10. By purchasing and using the Teen Care Parental Control Software, you acknowledge that you have read, understood, and agreed to this Payment Policy.\n";
+
+
+// about us
+
+// About us
+// Welcome to GAPS Enterprise, where we are committed to ensuring the digital safety and security of every child through our innovative product, Teen Care – a comprehensive parental control software.
+
+// Our Mission
+
+// At GAPS Enterprise, our mission is to empower parents in Punjab, India, and beyond to safeguard their children's online experiences. In an increasingly connected world, we understand the challenges parents face in ensuring a balance between the benefits and risks of digital technology.
+
+// Teen Care: Digital Security for Every Child
+
+// Our flagship product, Teen Care, is designed with a vision to provide a holistic solution for parents who seek to protect their children from the potential harms of the digital realm. Teen Care offers robust parental control features, enabling parents to monitor, manage, and guide their children's online activities.
+
+// Why Choose Teen Care?
+
+// Comprehensive Protection: Teen Care goes beyond traditional parental controls, offering a comprehensive set of features to address the evolving challenges of the digital age.
+// User-Friendly Interface: We believe in making digital security accessible. Teen Care features an intuitive and user-friendly interface, ensuring that parents can easily navigate and customize settings.
+// Data Encryption: We prioritize the security of your child's data. Teen Care employs advanced encryption techniques to safeguard sensitive information, providing you with peace of mind.
+// Our Commitment to Excellence
+
+// GAPS Enterprise is committed to excellence in creating solutions that make a positive impact on families. We continuously strive to stay ahead of the curve, incorporating the latest advancements in technology to enhance the effectiveness of Teen Care.
+
+// Contact Us
+
+// Have questions or suggestions? We value your feedback! Reach out to us at support@gaps.in or visit our office in Punjab.
+
+// Thank you for choosing GAPS Enterprise. Together, let's create a safer digital environment for every child.
+
+const aboutHeading1 = "About Us";
+const aboutHeading1Description =
+    'Welcome to GAPS Enterprise, where we are committed to ensuring the digital safety and security of every child through our innovative product, Teen Care – a comprehensive parental control software.\n';
+
+const aboutHeading2 = "Our Mission";
+const aboutHeading2Description =
+    'At GAPS Enterprise, our mission is to empower parents in Punjab, India, and beyond to safeguard their children\'s online experiences. In an increasingly connected world, we understand the challenges parents face in ensuring a balance between the benefits and risks of digital technology.\n';
+  
+const aboutHeading3 = "Teen Care: Digital Security for Every Child";
+const aboutHeading3Description =
+    'Our flagship product, Teen Care, is designed with a vision to provide a holistic solution for parents who seek to protect their children from the potential harms of the digital realm. Teen Care offers robust parental control features, enabling parents to monitor, manage, and guide their children\'s online activities.\n';
+
+const aboutHeading4 = "Why Choose Teen Care?";
+const aboutHeading4Description =
+    'Comprehensive Protection: Teen Care goes beyond traditional parental controls, offering a comprehensive set of features to address the evolving challenges of the digital age.\nUser-Friendly Interface: We believe in making digital security accessible. Teen Care features an intuitive and user-friendly interface, ensuring that parents can easily navigate and customize settings.\nData Encryption: We prioritize the security of your child\'s data. Teen Care employs advanced encryption techniques to safeguard sensitive information, providing you with peace of mind.\n';
+
+const aboutHeading5 = "Our Commitment to Excellence";
+const aboutHeading5Description =
+    'GAPS Enterprise is committed to excellence in creating solutions that make a positive impact on families. We continuously strive to stay ahead of the curve, incorporating the latest advancements in technology to enhance the effectiveness of Teen Care.\n';
+
+const aboutHeading6 = "Contact Us";
+const aboutHeading6Description =
+    'Have questions or suggestions? We value your feedback! Reach out to us at $supportEmail or visit our office in Punjab.\n';
+
+const aboutHeading7 = "Thank you for choosing GAPS Enterprise. Together, let's create a safer digital environment for every child.\n";
 
 
 const resourceTitle = "Resources";
