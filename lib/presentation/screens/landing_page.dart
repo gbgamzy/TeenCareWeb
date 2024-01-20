@@ -28,6 +28,9 @@ class _LandingPageState extends State<LandingPage> {
         case "privacyPolicy":
           showPrivacyDialog(context);
           break;
+        case "aboutUs":
+          showAboutUsDialog(context);
+          break;
         case "termsAndConditions":
           showTermsDialog(context);
           break;

@@ -30,7 +30,7 @@ class Footer extends StatelessWidget {
                   color: Colors.white),
             ),
             SizedBox(
-              width: (width<768) ? width : 0.5815789474 * width,
+              width: (width < 768) ? width : 0.5815789474 * width,
               child: const Text(
                 aboutDescription,
                 style: TextStyle(fontSize: 15, color: Colors.white),
@@ -55,8 +55,8 @@ class Footer extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: (){
-                            showFeaturePendingDialog(context: context);
+                          onTap: () {
+                            showAboutUsDialog(context);
                           },
                           child: const Text(
                             gapsTitle,
@@ -67,7 +67,7 @@ class Footer extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: (){
+                          onTap: () {
                             showContactsDialog(context: context);
                           },
                           child: const Text(
@@ -79,7 +79,7 @@ class Footer extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: (){
+                          onTap: () {
                             showPrivacyDialog(context);
                           },
                           child: const Text(
@@ -91,7 +91,7 @@ class Footer extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: (){
+                          onTap: () {
                             showTermsDialog(context);
                           },
                           child: const Text(
@@ -103,7 +103,7 @@ class Footer extends StatelessWidget {
                           ),
                         ),
                         InkWell(
-                          onTap: (){
+                          onTap: () {
                             showPaymentPolicyDialog(context);
                           },
                           child: const Text(
@@ -129,7 +129,7 @@ class Footer extends StatelessWidget {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
@@ -141,7 +141,7 @@ class Footer extends StatelessWidget {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
@@ -153,7 +153,7 @@ class Footer extends StatelessWidget {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
@@ -165,7 +165,7 @@ class Footer extends StatelessWidget {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(
@@ -177,7 +177,7 @@ class Footer extends StatelessWidget {
                         ),
                       ),
                       InkWell(
-                        onTap: (){
+                        onTap: () {
                           showFeaturePendingDialog(context: context);
                         },
                         child: const Text(

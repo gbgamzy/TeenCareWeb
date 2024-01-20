@@ -43,10 +43,10 @@ class Header extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 0.02083333333 * width),
               child: InkWell(
-                onTap: (){
+                onTap: () {
                   showFeaturePendingDialog(
-                      context:context,
-                      featureName: "Download",
+                    context: context,
+                    featureName: "Download",
                   );
                 },
                 child: Text(
@@ -56,7 +56,7 @@ class Header extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: (){
+              onTap: () {
                 showFeaturePendingDialog(
                   context: context,
                   featureName: "Pricing",
@@ -70,7 +70,7 @@ class Header extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 0.02083333333 * width),
               child: InkWell(
-                onTap: (){
+                onTap: () {
                   showFeaturePendingDialog(
                     context: context,
                   );
@@ -82,8 +82,8 @@ class Header extends StatelessWidget {
               ),
             ),
             InkWell(
-              onTap: (){
-                showFeaturePendingDialog(context: context);
+              onTap: () {
+                showAboutUsDialog(context);
               },
               child: Text(
                 "About Us",
@@ -93,7 +93,7 @@ class Header extends StatelessWidget {
             Padding(
               padding: EdgeInsets.symmetric(horizontal: 0.02083333333 * width),
               child: InkWell(
-                onTap: (){
+                onTap: () {
                   // Navigator.pushNamed(context, "/pdf");
                   showPrivacyDialog(context);
                 },

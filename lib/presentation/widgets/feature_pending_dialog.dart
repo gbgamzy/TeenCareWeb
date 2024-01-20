@@ -336,3 +336,71 @@ void showPaymentPolicyDialog(BuildContext context) {
     },
   );
 }
+
+void showAboutUsDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (BuildContext context) {
+      return AlertDialog(
+        title: const Text(aboutHeading1),
+        content: SingleChildScrollView(
+          child: ListBody(
+            children: <Widget>[
+              
+              const Text(aboutHeading1Description),
+              const Text(
+                aboutHeading2,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(aboutHeading2Description),
+              const Text(
+                aboutHeading3,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(aboutHeading3Description),
+              const Text(
+                aboutHeading4,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(aboutHeading4Description),
+              const Text(
+                aboutHeading5,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(aboutHeading5Description),
+              const Text(
+                aboutHeading6,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              const Text(aboutHeading6Description),
+              const Text(
+                aboutHeading7,
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+        ),
+        actions: <Widget>[
+          TextButton(
+            child: const Text('Okay'),
+            onPressed: () {
+              Navigator.of(context).pop();
+            },
+          ),
+        ],
+      );
+    },
+  );
+}

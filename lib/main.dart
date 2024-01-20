@@ -31,6 +31,8 @@ class MyApp extends StatelessWidget {
             const LandingPage(dialogToShow: "contacts"),
         '/paymentPolicy': (context) =>
             const LandingPage(dialogToShow: "paymentPolicy"),
+        '/aboutUs': (context) =>  
+            const LandingPage(dialogToShow: "aboutUs"),
         '/': (context) => const LandingPage(),
         '/pdf': (context) => const PdfViewer(),
       },
